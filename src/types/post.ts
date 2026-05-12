@@ -4,4 +4,5 @@ export interface PostType {
   username: string;
   likes: number;
   caption: string;
+  profileImage: string;
 }
