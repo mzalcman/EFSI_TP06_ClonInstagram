@@ -29,6 +29,7 @@ La API fue utilizada para obtener imágenes de gatos dinámicamente mediante pet
 Además, para las imágenes de perfil de usuarios simulados utilizamos: https://pravatar.cc/
 
 Librería de íconos utilizada para recrear los íconos del sidebar, botones de interacción y elementos visuales inspirados en Instagram para ser lo más fiel posible al figma: https://lucide.dev/
+
 ---
 
 # Tecnologías utilizadas
