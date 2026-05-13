@@ -5,7 +5,7 @@ const user = {
     "https://thumbs.dreamstime.com/b/amante-del-gato-54813833.jpg",
   followers: 1240,
   following: 350,
-  posts: 10,
+  posts: 12,
 };
 
 export default user;

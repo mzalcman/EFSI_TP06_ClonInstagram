@@ -13,7 +13,12 @@ const usernames = [
   "kittydaily",
   "meowworld",
   "fluffycat",
-  "sleepycat"
+  "sleepycat",
+  "catfannn",
+  "hellokitty",
+  "beatufullcat",
+  "shycatt",
+  "cat0382"
 ];
 
 const captions = [
@@ -21,7 +26,12 @@ const captions = [
   "Nap time all day",
   "Too cute to handle",
   "Cats make everything better",
-  "Just chilling"
+  "Just chilling",
+  "Living my best cat life",
+  "Cat time all day",
+  "Too beautifull to handle",
+  "Cats make everything so beauty",
+  "Just be you"
 ];
 
 const profileImages = [
@@ -29,7 +39,12 @@ const profileImages = [
   "https://i.pravatar.cc/150?img=2",
   "https://i.pravatar.cc/150?img=3",
   "https://i.pravatar.cc/150?img=4",
-  "https://i.pravatar.cc/150?img=5"
+  "https://i.pravatar.cc/150?img=5",
+  "https://i.pravatar.cc/150?img=6",
+  "https://i.pravatar.cc/150?img=7",
+  "https://i.pravatar.cc/150?img=8",
+  "https://i.pravatar.cc/150?img=9",
+  "https://i.pravatar.cc/150?img=10"
 ];
 
 function App() {
