@@ -1,6 +1,7 @@
 import { useState } from "react";
 import type { PostType } from "../../types/post";
 import "./Post.css";
+import { Heart, MessageCircle, Send, Bookmark, } from "lucide-react";
 
 interface PostProps {
     post: PostType;
@@ -29,13 +30,34 @@ function Post({ post, onSelect }: PostProps) {
             />
 
             <div className="post-content">
-                <button onClick={() => setLiked(!liked)}>
-                    {liked ? "❤️" : "🤍"}
-                </button>
+                <div className="post-actions">
+                    <div className="left-icons">
+                        <button onClick={() => setLiked(!liked)}>
+                            <Heart
+                                size={26}
+                                fill={liked ? "black" : "none"}
+                            />
+                        </button>
 
-                <p>{liked ? post.likes + 1 : post.likes} likes</p>
+                        <button>
+                            <MessageCircle size={26} />
+                        </button>
 
-                <p>
+                        <button>
+                            <Send size={26} />
+                        </button>
+                    </div>
+
+                    <button>
+                        <Bookmark size={26} />
+                    </button>
+                </div>
+
+                <p className="likes">
+                    {liked ? post.likes + 1 : post.likes} likes
+                </p>
+
+                <p className="caption">
                     <strong>{post.username}</strong> {post.caption}
                 </p>
             </div>

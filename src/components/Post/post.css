@@ -37,3 +37,34 @@
   font-size: 24px;
   cursor: pointer;
 }
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+
+.left-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.post-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.likes {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.caption {
+  font-size: 15px;
+}
