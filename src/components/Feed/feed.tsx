@@ -3,6 +3,7 @@ import type { PostType } from "../../types/post";
 import "./Feed.css";
 import Stories from "../Stories/stories";
 
+// Define los elementos que se van a mostrar en el feed
 interface FeedProps {
     posts: PostType[];
     onSelect: (post: PostType) => void;
